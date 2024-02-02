@@ -18,11 +18,13 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
+\[
+\begin{align*}
 Proof: $f(n)\in o(g(n))$ implies that $f(n)\in O(g(n))$.
 
-$f(n)\in o(g(n))$ <br>
-$f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$      Definition of $f(n)\in o(g(n))$ <br>
-$\forall c$ &#8658; $\exists c$ Definition of $\forall c$                                            
-$f(n)\in O(g(n)) \iff \exists c > 0, \exists n_0 \ge 0: \forall n \ge n_0, f(n) \le c g(n)$     Definition of $f(n)\in O(g(n))$         
-$f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$ Propositional reasoning
-
+&$f(n)\in o(g(n))$ <br>
+&$f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$      &&Definition of $f(n)\in o(g(n))$ <br>
+&$\forall c$ &#8658; $\exists c$ &&Definition of $\forall c$                                            
+&$f(n)\in O(g(n)) \iff \exists c > 0, \exists n_0 \ge 0: \forall n \ge n_0, f(n) \le c g(n)$     &&Definition of $f(n)\in O(g(n))$         
+&$f(n)\in o(g(n))$ implies that $f(n)\in O(g(n))$.  &&Propositional reasoning
+\]
